@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Interactive Image Gallery</h1>
+
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <div class="gallery">
+
+        <img src="./Ảnh màn hình 2026-10-01 lúc 17.03.59.png"
+             alt="Faker"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="./Ảnh màn hình 2026-10-01 lúc 17.05.51.png"
+             alt="Doran"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+        <img src="./Ảnh màn hình 2026-10-01 lúc 17.06.02.png"
+             alt="Keria"
+             onmouseover="upDate(this)"
+             onmouseout="undo()">
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
